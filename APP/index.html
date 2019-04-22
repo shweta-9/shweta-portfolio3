@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+		<!-- Google Analytics -->
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-86851403-1', 'auto');
+	ga('send', 'pageview');
+	</script>
+	<!-- End Google Analytics -->
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.js"></script>
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>shway</title>
+	<meta name="title" content="Shweta Sharma's Portfolio">
+	<meta name="description" content="View Shway's online portfolio featuring a range of graphic design work in both print and digital.">
+</head>
+
+<body ng-app="portfolio2App">
+
+	<div class="mainbox">
+
+	<!-- NAV BAR -->
+		<nav>
+			<div class="nav-title">
+				<a href="http://www.shwayda.com">
+				<img src="assets/img/LOGO_SHWAYDA-01.png"></a>
+			
+				<div class="nav-list">
+					<div class="nav-menu">
+						<a class="hover" ui-sref="journal" href="/journal">JOURNAL</a>
+					</div>
+					<div class="nav-menu">
+						<a class="hover" ui-sref="contact" href="/contact">CONTACT</a>
+					</div>
+					<div class="nav-menu">
+						<a class="hover" ui-sref="about" href="/about">ABOUT</a>
+					</div>
+					<div class="nav-menu">
+						<a class="hover" ui-sref="work" href="/work">WORK</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+<!-- 		<div class="container">
+			<div class="intro-quote">
+				<p>My mission in life is not merely to survive, but to thrive and to do so with some passion, some compassion, 
+		some humour and some style. –Maya Angelou</p>
+			</div>
+		</div> -->
+	
+		<!-- UI VIEW -->
+		<div class="contentbox">
+			<ui-view autoscroll="false"></ui-view>
+		</div>
+
+		<!-- FOOTER -->
+		<div id="wrap">
+			<div id="main" class="footer-info">
+				
+				<p style="text-align: left; float: left;display: block; font-size: 0.9em; line-height: 1.4em; font-weight: 100;">
+					647 760 7334 
+					<br>
+					<a class="hover";" href="mailto:hello@shwayda.com"> HELLO@SHWAYDA.COM</a>
+				</p>
+							
+				<p style="text-align: right; font-size: 0.9em;
+	    line-height: 1.4em; font-weight: 100;"> <br> 2019 © SHWAYDA.COM</p>
+			</div>
+		</div>
+
+
+</body>
+
+
+</html>
+
+
