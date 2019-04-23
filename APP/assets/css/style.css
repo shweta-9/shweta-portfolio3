@@ -45,7 +45,7 @@ nav {
 	top: 1%;
 	display: inline-block;
     z-index: 1000;
-    width: 92vw;
+    width: 98vw;
 }
 
 
@@ -887,15 +887,19 @@ html, body {
     }
 
   body {
-        width: 92vw;
+        width: 90vw;
     }
 
     .project-img {
-        width: 92vw;
+        width: 90vw;
     }
     
     #wrap {
-        width: 92vw;
+        width: 90vw;
+    }
+
+    nav {
+        width: 90vw;
     }
 
     .thumb {
@@ -917,7 +921,11 @@ html, body {
     }
 
     .proj {
-        width: 100%;
+        width: 90%;
+    }
+
+    .right {
+        float: unset;
     }
 
     .eyeris {
@@ -1216,6 +1224,8 @@ html, body {
         line-height: 4.5rem;
         text-align: center;
         letter-spacing: 3px;
+         width: 80%;
+
     }   
 
 
