@@ -903,7 +903,7 @@ html, body {
     }
 
     .contentbox .proj img {
-        width: 92%;
+        width: 90%;
     }
 
     .thumb {
@@ -1186,7 +1186,7 @@ html, body {
     }
 
     .page-title {
-        font-size: 11rem;
+        font-size: 8rem;
         text-shadow: 1px 0 0 #fff, 0 -1px 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff;
     }
 
