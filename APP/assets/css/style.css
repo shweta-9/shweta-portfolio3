@@ -902,6 +902,10 @@ html, body {
         width: 90vw;
     }
 
+    .contentbox .proj img {
+        width: 92%;
+    }
+
     .thumb {
         width: 100%;
     }
@@ -1233,9 +1237,7 @@ html, body {
 
     }   
 
-    .contentbox .proj img {
-        width: 90%;
-    }
+
 
     .lineProj {
         width: 50%;
