@@ -1042,6 +1042,10 @@ html, body {
     .hidden {
          opacity: 1;
     }
+
+    .contentbox {
+        width: 90vw;
+    }
 }
 
 /*SMALL, LESS THAN 319 PIXELS */
@@ -1236,7 +1240,10 @@ html, body {
          width: 80%;
 
     }   
-
+    
+    .written-column {
+        font-size: 1.3em;
+    }
 
 
     .lineProj {
