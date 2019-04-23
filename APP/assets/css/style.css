@@ -1141,6 +1141,10 @@ html, body {
     .nav-title img {
          width: 12%;
     }
+
+    .contact {
+        height: 50vh;
+    }
 }
 
 /*SMALL, LESS THAN 319 PIXELS */
@@ -1191,11 +1195,13 @@ html, body {
 
     .page-title {
         font-size: 7rem;
+        letter-spacing: 3px;
         text-shadow: 1px 0 0 #fff, 0 -1px 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff;
     }
 
     .contact-title {
         font-size: 7rem;
+        letter-spacing: 3px;
     }
 
     .desc-box {
