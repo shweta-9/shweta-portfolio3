@@ -1027,7 +1027,8 @@ html, body {
 
     .divider { 
         width: 90vw;
-        margin: 0px;
+        margin: 25px 0px;
+    }
 
     .shweta-box {
         background-color: black;
@@ -1178,7 +1179,7 @@ html, body {
 
     .page-title {
         font-size: 11rem;
-        text-shadow: 1px 0 0 #fff, 0 1px 0 #fff, 0 1px 0 #fff, 1px 0 0 #fff;
+        text-shadow: 1px 0 0 #fff, 0 -1px 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff;
     }
 
     .contact-title {
