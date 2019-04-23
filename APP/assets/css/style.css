@@ -1012,10 +1012,6 @@ html, body {
         color: white;
     }
 
-    .grief {
-
-    }
-
     .rexpressions {
         background-color: unset;
         color: white;
@@ -1024,6 +1020,14 @@ html, body {
     .img-column {
         height: unset;
     }
+
+    .resume {
+        width: 90vw;
+    }
+
+    .divider { 
+        width: 90vw;
+        margin: 0px;
 
     .shweta-box {
         background-color: black;
@@ -1174,7 +1178,7 @@ html, body {
 
     .page-title {
         font-size: 11rem;
-        text-shadow: 0.5px 0 0 #fff, 0 0.5px 0 #fff, 0 0.5px 0 #fff, -0.5px 0 0 #fff;
+        text-shadow: 1px 0 0 #fff, 0 1px 0 #fff, 0 1px 0 #fff, 1px 0 0 #fff;
     }
 
     .contact-title {
@@ -1228,6 +1232,9 @@ html, body {
 
     }   
 
+    .contentbox .proj img {
+        width: 90%;
+    }
 
     .lineProj {
         width: 50%;
