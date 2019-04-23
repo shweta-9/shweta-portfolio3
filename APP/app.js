@@ -44,7 +44,7 @@
 
 				.state('sanar', {
 					url: "/sanar",
-	  				templateUrl: "site/projects/sanar", 				
+	  				templateUrl: "site/projects/sanar.html", 				
 				})				
 
 				.state('to-sunrise', {

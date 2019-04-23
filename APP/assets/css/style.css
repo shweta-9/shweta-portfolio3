@@ -45,7 +45,7 @@ nav {
 	top: 1%;
 	display: inline-block;
     z-index: 1000;
-    width: 98vw;
+    width: 92vw;
 }
 
 
@@ -227,11 +227,12 @@ a {
 .year {
     margin-top: 0px;
     line-height: 1rem;
-    font-family: robotomono-thin;
+    font-family: Dark-Medium;
     color: white;
-/*    display: inline-block;*/
-    font-size: 1rem;
-    line-height: 1.4rem;
+    /* display: inline-block; */
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    letter-spacing: 2px;
 }
 
 .desc-box {
@@ -827,7 +828,7 @@ html, body {
 }
 
 /*  MACBOOK, LESS THAN 900 PIXELS */
-@media only screen and (max-width:1365px) {
+@media only screen and (max-width:1440px) {
 
 
 /*    body {
@@ -840,7 +841,7 @@ html, body {
     }
 
     .written-column {
-        font-size: 1.5em;
+        font-size: 1.3em;
 
     }
 
@@ -885,10 +886,18 @@ html, body {
         font-size: 90%;
     }
 
-/*  body {
-        background-color: lightblue;
-    }*/
+  body {
+        width: 92vw;
+    }
+
+    .project-img {
+        width: 92vw;
+    }
     
+    #wrap {
+        width: 92vw;
+    }
+
     .thumb {
         width: 100%;
     }
@@ -1012,6 +1021,10 @@ html, body {
         background-color: black;
         color: white;
     }
+
+    .hidden {
+         opacity: 1;
+    }
 }
 
 /*SMALL, LESS THAN 319 PIXELS */
@@ -1054,6 +1067,7 @@ html, body {
 
     .page-title {
         font-size: 15rem;
+        text-shadow: 1x 0 0 #fff, 0 1px 0 #fff, 0 1px 0 #fff, 1px 0 0 #fff;
     }
 
     .heading-column {
@@ -1168,11 +1182,11 @@ html, body {
     }
 
     .project-title {
-        font-size: 8em;
+        font-size: 5em;
         padding-top: 49%;
-        font-size: 7em;
         width: 90%;
         line-height: 1em;
+        letter-spacing: 3px;
     }
 
     .contentbox {
@@ -1198,10 +1212,11 @@ html, body {
     }
 
     .project-title {
-        font-size: 3.5rem;
+        font-size: 4.3rem;
         line-height: 4.5rem;
         text-align: center;
-    }
+        letter-spacing: 3px;
+    }   
 
 
     .lineProj {
