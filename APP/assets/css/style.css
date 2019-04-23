@@ -1150,6 +1150,10 @@ html, body {
         background-color: orchid;
     }*/
 
+    .wrapper {
+        width: 90vw;
+    }
+
     .mainbox {
         width: 70vw;
     }   
@@ -1186,12 +1190,12 @@ html, body {
     }
 
     .page-title {
-        font-size: 8rem;
+        font-size: 7rem;
         text-shadow: 1px 0 0 #fff, 0 -1px 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff;
     }
 
     .contact-title {
-        font-size: 8rem;
+        font-size: 7rem;
     }
 
     .desc-box {
