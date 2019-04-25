@@ -799,11 +799,12 @@ html, body {
 }
 
 .contact {
-	width: 33%;
+	width: 50%;
 	display: inline-block;
 	vertical-align: top;
     text-align: right;
     margin-right: 1%;
+    text-align: center;
 }
 
 .about-written {
@@ -825,6 +826,29 @@ html, body {
 	width: 33%; 
 	display: inline-block; 
 	/*float: right;*/
+}
+
+
+@media only screen and (max-width:2560px) {
+    .rise {
+        top: 30%;
+    }
+
+    .eyeris {
+        top: 40%;
+    }
+
+    .thesis {
+        top: 35%;
+    }
+
+    .earthwatch {
+        top: 35%;
+    }
+
+    .about-pg {
+        margin-top: 13%;
+    }
 }
 
 /*  MACBOOK, LESS THAN 900 PIXELS */
